@@ -4,6 +4,8 @@ title: about
 permalink: /
 description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
+Hello world!
+
 profile:
   align: right
   image: prof_pic.jpg

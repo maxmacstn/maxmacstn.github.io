@@ -64,7 +64,11 @@ a, table.table a {
     .address {
       p { display: block; }
     }
+    img {
+      width: 100%;
+    }
   }
+  
 }
 
 .post-description {
@@ -165,15 +169,42 @@ a, table.table a {
 }
 
 
-// News
+// Education & Experience
 
-.news table td {
-  font-size: 1rem;
-  color: var(--global-text-color);
-}
+.exp-edu-table {
+  .table{
+    td {
+      font-size: 1rem;
+      color: var(--global-text-color);
+      display: block;
+    }
+    th {
+      color: var(--global-text-color);
+      width: 20%;
 
-.news table th {
-  color: var(--global-text-color);
+    }
+  }
+  .title{
+    font-weight: bolder;
+  }
+  .subtitle{
+    display: block;
+    font-size: 0.9rem;
+  }
+  // @media (min-width: 576px) {
+  //   .subtitle{
+  //     display: block;
+  //     font-size: 0.8rem;
+  //   }
+  // }
+
+  .description{
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--global-text-color);
+    display: block;
+  }
+
 }
 
 // Social (bottom)
@@ -220,8 +251,8 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid $grey-color-light;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 0.9rem;
 }
 
@@ -339,7 +370,7 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: $grey-color-light;
+    color: $grey-color;
     border-bottom: 1px solid $grey-color-light;
     padding-top: 0.5rem;
     margin-top: 2rem;

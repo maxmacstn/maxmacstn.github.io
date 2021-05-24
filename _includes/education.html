@@ -1,0 +1,24 @@
+<div class="exp-edu-table">
+  <h2>education</h2>
+  <!-- {% if site.education  %} -->
+    <div class="table-responsive">
+
+      
+      <table class="table table-sm table-borderless">
+      {% assign education = site.data.education %}
+      {% for entry in education %}
+      {% assign key = entry | first %}
+        <tr>
+          <th  scope="row">{{education[key].graduated-year}} </th>
+          <td>
+              <a class="title" >{{ education[key].field }}</a>
+              <a class="description" >{{ education[key].location }}</a>
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+  <!-- {% else %}
+    <p>No education field added so far...</p>
+  {% endif %} -->
+</div>

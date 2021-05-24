@@ -26,10 +26,10 @@ Two key components of the project are the sensor module and main module. Sensor 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SenseStack/SS_main.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SenseStack/SS_main.png' | relative_url }}" alt="" title="SenseStack Main Module"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SenseStack/SS_sensor.png' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/SenseStack/SS_sensor.png' | relative_url }}" alt="" title="SenseStack Sensor Module"/>
     </div>
 </div>
 <div class="caption">

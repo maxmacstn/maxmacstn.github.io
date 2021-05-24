@@ -50,4 +50,4 @@ I made PM2.5 the most prominent value because air pollution is currently a serio
 </div>
 
 
-Project site: [https://github.com/maxmacstn/Arduino-Motorized-Dolly](https://github.com/maxmacstn/HA-ePaper-Display)
+Project site: [https://github.com/maxmacstn/HA-ePaper-Display](https://github.com/maxmacstn/HA-ePaper-Display)

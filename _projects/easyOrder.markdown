@@ -13,7 +13,7 @@ This project aims to create both client and server application to help restauran
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/easyOrder/easyOrder-full.jpeg' | relative_url }}" alt="" title="Flow of EasyOrder"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/easyOrder/easyOrder-full.jpeg' | relative_url }}" alt="" title="EasyOrder"/>
     </div>
 </div>
 <div class="caption">

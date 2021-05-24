@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Sitinut's portfolio | Sitinut's portfolio</title>
+<title>Sitinut's portfolio | SenseStack</title>
 <meta name="description" content="All about me.
 ">
 
@@ -16,7 +16,7 @@
 " />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="" />
-<meta property="og:url" content="https://magiapp.me/blog/index.html" />
+<meta property="og:url" content="https://magiapp.me/projects/sensestack/" />
 <meta property="og:description" content="All about me.
 " />
 <meta property="og:image" content="/assets/img/banner.png" />
@@ -40,7 +40,7 @@
 
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/sensestack/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -120,8 +120,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/projects/">
                 projects
@@ -142,7 +140,7 @@
           
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="https://blog.magiapp.me">
               blog
               
@@ -171,56 +169,50 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">SenseStack</h1>
+    <p class="post-description">Universal IoT hardware platform For Sensor data collection</p>
+  </header>
+
+  <article>
+    <p>Following the recent surge of talks about climate change, people have started to care more about the condition of their surrounding environment. These conditions include, but are not limited to, temperature, humidity and pollution level. This phenomenon entails the need to acquire accurate environmental data periodically and as personalized as possible. Despite there being many solutions to perform this task, most are either costly or only accessible to individuals with technical skill or government bodies and large organizations. To answer these challenges, our team proposes SenseStack: an open, extendable environment sensing platform which can provide publicly accessible data or collect private data.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/lyH1x3b3NAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+</div>
+<div class="caption">
+    SenseStack introduction video
+</div>
+
+<p>To achieve this task, we developed a user-friendly hardware platform for creating sensor nodes which can be configured to suit different environmental sensing tasks with minimal setup. Moreover, our software and hardware are open to modification and extension. In this way, IoT systems become more accessible to a greater span of target users. Our approach consists of an IoT platform based on an ESP32 development board and various sensor modules driven by a megaAVR family microcontroller.</p>
+
+<p>Two key components of the project are the sensor module and main module. Sensor modules, up to ten units per node, sense and repackage environmental data to the main module via a single I2C bus and a data transmission protocol. The main module requests and collects data from the sensor modules, formats them into a JSON packet, and forwards them to a client endpoint IP via POST request. The main module also houses a user interface in which users can setup and configure the node, view live sensor data, as well as update the firmware.</p>
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/SenseStack/SS_main.png" alt="" title="SenseStack Main Module" />
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/SenseStack/SS_sensor.png" alt="" title="SenseStack Sensor Module" />
+    </div>
+</div>
+<div class="caption">
+Left, internal of SenseStack Main Module. Right, internal of SenseStack Sensor Module
+</div>
+
+<p>Team members</p>
+<ul>
+  <li><a href="https://github.com/maxmacstn">MaxMac_STN</a></li>
+  <li><a href="https://github.com/Tobalation">Tobalation</a></li>
+  <li><a href="https://github.com/cdsw">CDSW</a></li>
+</ul>
+
+<p>Project site: <a href="https://github.com/Tobalation/SenseStack/wiki">https://github.com/Tobalation/SenseStack/wiki</a></p>
 
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/twitter/">a post with twitter</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>an example of a blog post with twitter</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2018/distill/">a distill-style blog post</a></h3>
-        <p class="post-meta">December 22, 2018</p>
-        <p>an example of a distill-style blog post and main elements</p>
-      </li>
-    
-  </ul>
-
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="Sitinut's portfolio">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="Sitinut's portfolio - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="Sitinut's portfolio - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-
+  </article>
 
 </div>
 
